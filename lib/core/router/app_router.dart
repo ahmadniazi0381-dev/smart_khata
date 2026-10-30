@@ -4,6 +4,9 @@ import '../../features/customers/presentation/screens/customer_detail_screen.dar
 import '../../features/customers/presentation/screens/customers_screen.dart';
 import '../../features/inventory/presentation/screens/product_detail_screen.dart';
 import '../../features/inventory/presentation/screens/stock_screen.dart';
+import '../../features/sales/presentation/screens/new_sale_screen.dart';
+import '../../features/sales/presentation/screens/sale_detail_screen.dart';
+import '../../features/sales/presentation/screens/sales_screen.dart';
 import '../../features/setup/presentation/screens/shop_setup_screen.dart';
 import '../../l10n/app_localizations.dart';
 import 'shell_scaffold.dart';
@@ -31,6 +34,7 @@ abstract final class AppRoutes {
   static const productDetail = '/products/:id';
   static const sales = '/sales';
   static const newSale = '/sales/new';
+  static const saleDetail = '/sales/:id';
   static const reports = '/reports';
   static const setup = '/setup';
 }
@@ -68,13 +72,7 @@ final GoRouter appRouter = GoRouter(
         ),
         GoRoute(
           path: AppRoutes.sales,
-          builder: (context, state) {
-            final l10n = AppLocalizations.of(context);
-            return Scaffold(
-              appBar: AppBar(title: Text(l10n.navSales)),
-              body: _placeholder(l10n.navSales),
-            );
-          },
+          builder: (context, state) => const SalesScreen(),
         ),
         GoRoute(
           path: AppRoutes.reports,
@@ -96,13 +94,7 @@ final GoRouter appRouter = GoRouter(
     ),
     GoRoute(
       path: AppRoutes.newSale,
-      builder: (context, state) {
-        final l10n = AppLocalizations.of(context);
-        return Scaffold(
-          appBar: AppBar(title: Text(l10n.newSale)),
-          body: _placeholder(l10n.newSale),
-        );
-      },
+      builder: (context, state) => const NewSaleScreen(),
     ),
     GoRoute(
       path: AppRoutes.customerDetail,
@@ -116,6 +108,13 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) {
         final id = state.pathParameters['id'] ?? '';
         return ProductDetailScreen(productId: id);
+      },
+    ),
+    GoRoute(
+      path: AppRoutes.saleDetail,
+      builder: (context, state) {
+        final id = state.pathParameters['id'] ?? '';
+        return SaleDetailScreen(saleId: id);
       },
     ),
   ],

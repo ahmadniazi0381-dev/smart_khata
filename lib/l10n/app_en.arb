@@ -248,5 +248,147 @@
   "@archiveProduct": { "description": "Action to archive product." },
 
   "productArchived": "Product archived",
-  "@productArchived": { "description": "Message after product archived." }
+  "@productArchived": { "description": "Message after product archived." },
+
+  "walkInCustomer": "Walk-in Customer",
+  "@walkInCustomer": { "description": "Label for a sale without a registered customer." },
+
+  "selectCustomer": "Select Customer",
+  "@selectCustomer": { "description": "Placeholder/action to select customer." },
+
+  "cart": "Cart",
+  "@cart": { "description": "Cart label / tab title." },
+
+  "itemsCount": "{count, plural, =1{1 item} other{{count} items}}",
+  "@itemsCount": {
+    "description": "Item count badge",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "subtotal": "Subtotal",
+  "@subtotal": { "description": "Cart/Sale subtotal before discount." },
+
+  "discount": "Discount",
+  "@discount": { "description": "Discount applied to a sale." },
+
+  "total": "Total",
+  "@total": { "description": "Final total amount for a sale." },
+
+  "paid": "Paid",
+  "@paid": { "description": "Amount paid by customer." },
+
+  "due": "Due",
+  "@due": { "description": "Remaining balance due from customer." },
+
+  "paymentType": "Payment Type",
+  "@paymentType": { "description": "Selector for payment type." },
+
+  "fullCash": "Full Cash",
+  "@fullCash": { "description": "Payment mode where full amount is paid immediately." },
+
+  "fullCredit": "Full Credit (Udhaar)",
+  "@fullCredit": { "description": "Payment mode where entire amount is on credit." },
+
+  "partialPayment": "Partial Payment",
+  "@partialPayment": { "description": "Payment mode where customer pays part now and owes the rest." },
+
+  "completeSale": "Complete Sale",
+  "@completeSale": { "description": "Button to finalize and record the sale." },
+
+  "cartEmpty": "Cart is empty",
+  "@cartEmpty": { "description": "Empty state title when cart has no items." },
+
+  "cartEmptySubtitle": "Select products from the catalog to start a sale",
+  "@cartEmptySubtitle": { "description": "Empty state subtitle for cart." },
+
+  "addToCart": "Add to Cart",
+  "@addToCart": { "description": "Action to add item to cart." },
+
+  "goToCart": "View Cart",
+  "@goToCart": { "description": "Action button to view cart." },
+
+  "products": "Products",
+  "@products": { "description": "Products catalog tab/label." },
+
+  "invoiceNo": "Invoice #",
+  "@invoiceNo": { "description": "Invoice number label." },
+
+  "saleDate": "Date",
+  "@saleDate": { "description": "Date of sale." },
+
+  "saleStatus": "Status",
+  "@saleStatus": { "description": "Sale status label." },
+
+  "statusCompleted": "Completed",
+  "@statusCompleted": { "description": "Status indicating completed sale." },
+
+  "statusCancelled": "Cancelled",
+  "@statusCancelled": { "description": "Status indicating cancelled sale." },
+
+  "cancelledOn": "Cancelled on",
+  "@cancelledOn": { "description": "Prefix for cancellation timestamp." },
+
+  "cancelReasonLabel": "Cancellation Reason",
+  "@cancelReasonLabel": { "description": "Label for why sale was cancelled." },
+
+  "cancelSale": "Cancel Sale",
+  "@cancelSale": { "description": "Action to cancel a completed sale." },
+
+  "cancelSaleConfirmTitle": "Cancel This Sale?",
+  "@cancelSaleConfirmTitle": { "description": "Dialog title for cancelling a sale." },
+
+  "cancelSaleConfirmMsg": "This will return all items to stock and reverse any ledger credit or payments. Enter a reason below:",
+  "@cancelSaleConfirmMsg": { "description": "Dialog message for cancelling a sale." },
+
+  "printReceipt": "Print Receipt",
+  "@printReceipt": { "description": "Action to print thermal receipt." },
+
+  "shareReceipt": "Share Receipt",
+  "@shareReceipt": { "description": "Action to share receipt as PDF." },
+
+  "saleDetails": "Sale Details",
+  "@saleDetails": { "description": "Title for sale details screen." },
+
+  "itemsPurchased": "Purchased Items",
+  "@itemsPurchased": { "description": "Section header for items in a sale." },
+
+  "filterAll": "All",
+  "@filterAll": { "description": "Filter tab for all records." },
+
+  "filterCompleted": "Completed",
+  "@filterCompleted": { "description": "Filter tab for completed sales." },
+
+  "filterCancelled": "Cancelled",
+  "@filterCancelled": { "description": "Filter tab for cancelled sales." },
+
+  "quickAddCustomer": "Quick Add Customer",
+  "@quickAddCustomer": { "description": "Button to quickly register a new customer during checkout." },
+
+  "stockAvailable": "Stock: {stock}",
+  "@stockAvailable": {
+    "description": "Available stock quantity",
+    "placeholders": {
+      "stock": { "type": "String" }
+    }
+  },
+
+  "outOfStock": "Out of Stock",
+  "@outOfStock": { "description": "Label when stock is 0." },
+
+  "insufficientStockAlert": "Not enough stock",
+  "@insufficientStockAlert": { "description": "Alert when item has insufficient stock." },
+
+  "customerRequiredForCredit": "Customer selection is required when there is a remaining balance",
+  "@customerRequiredForCredit": { "description": "Validation message when trying to make credit sale without customer." },
+
+  "discountExceedsSubtotal": "Discount cannot exceed subtotal",
+  "@discountExceedsSubtotal": { "description": "Validation error for discount." },
+
+  "invalidPaidAmount": "Paid amount cannot exceed total",
+  "@invalidPaidAmount": { "description": "Validation error for paid amount." },
+
+  "receiptThankYou": "Thank you for your business!",
+  "@receiptThankYou": { "description": "Default receipt footer." }
 }
