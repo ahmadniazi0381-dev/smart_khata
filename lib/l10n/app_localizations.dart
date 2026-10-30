@@ -595,6 +595,270 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Product archived'**
   String get productArchived;
+
+  /// Label for a sale without a registered customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Walk-in Customer'**
+  String get walkInCustomer;
+
+  /// Placeholder/action to select customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Customer'**
+  String get selectCustomer;
+
+  /// Cart label / tab title.
+  ///
+  /// In en, this message translates to:
+  /// **'Cart'**
+  String get cart;
+
+  /// Item count badge
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 item} other{{count} items}}'**
+  String itemsCount(int count);
+
+  /// Cart/Sale subtotal before discount.
+  ///
+  /// In en, this message translates to:
+  /// **'Subtotal'**
+  String get subtotal;
+
+  /// Discount applied to a sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Discount'**
+  String get discount;
+
+  /// Final total amount for a sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get total;
+
+  /// Amount paid by customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid'**
+  String get paid;
+
+  /// Remaining balance due from customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Due'**
+  String get due;
+
+  /// Selector for payment type.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Type'**
+  String get paymentType;
+
+  /// Payment mode where full amount is paid immediately.
+  ///
+  /// In en, this message translates to:
+  /// **'Full Cash'**
+  String get fullCash;
+
+  /// Payment mode where entire amount is on credit.
+  ///
+  /// In en, this message translates to:
+  /// **'Full Credit (Udhaar)'**
+  String get fullCredit;
+
+  /// Payment mode where customer pays part now and owes the rest.
+  ///
+  /// In en, this message translates to:
+  /// **'Partial Payment'**
+  String get partialPayment;
+
+  /// Button to finalize and record the sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete Sale'**
+  String get completeSale;
+
+  /// Empty state title when cart has no items.
+  ///
+  /// In en, this message translates to:
+  /// **'Cart is empty'**
+  String get cartEmpty;
+
+  /// Empty state subtitle for cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Select products from the catalog to start a sale'**
+  String get cartEmptySubtitle;
+
+  /// Action to add item to cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Cart'**
+  String get addToCart;
+
+  /// Action button to view cart.
+  ///
+  /// In en, this message translates to:
+  /// **'View Cart'**
+  String get goToCart;
+
+  /// Products catalog tab/label.
+  ///
+  /// In en, this message translates to:
+  /// **'Products'**
+  String get products;
+
+  /// Invoice number label.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice #'**
+  String get invoiceNo;
+
+  /// Date of sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get saleDate;
+
+  /// Sale status label.
+  ///
+  /// In en, this message translates to:
+  /// **'Status'**
+  String get saleStatus;
+
+  /// Status indicating completed sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get statusCompleted;
+
+  /// Status indicating cancelled sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled'**
+  String get statusCancelled;
+
+  /// Prefix for cancellation timestamp.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled on'**
+  String get cancelledOn;
+
+  /// Label for why sale was cancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancellation Reason'**
+  String get cancelReasonLabel;
+
+  /// Action to cancel a completed sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel Sale'**
+  String get cancelSale;
+
+  /// Dialog title for cancelling a sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel This Sale?'**
+  String get cancelSaleConfirmTitle;
+
+  /// Dialog message for cancelling a sale.
+  ///
+  /// In en, this message translates to:
+  /// **'This will return all items to stock and reverse any ledger credit or payments. Enter a reason below:'**
+  String get cancelSaleConfirmMsg;
+
+  /// Action to print thermal receipt.
+  ///
+  /// In en, this message translates to:
+  /// **'Print Receipt'**
+  String get printReceipt;
+
+  /// Action to share receipt as PDF.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Receipt'**
+  String get shareReceipt;
+
+  /// Title for sale details screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Sale Details'**
+  String get saleDetails;
+
+  /// Section header for items in a sale.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchased Items'**
+  String get itemsPurchased;
+
+  /// Filter tab for all records.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get filterAll;
+
+  /// Filter tab for completed sales.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get filterCompleted;
+
+  /// Filter tab for cancelled sales.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancelled'**
+  String get filterCancelled;
+
+  /// Button to quickly register a new customer during checkout.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick Add Customer'**
+  String get quickAddCustomer;
+
+  /// Available stock quantity
+  ///
+  /// In en, this message translates to:
+  /// **'Stock: {stock}'**
+  String stockAvailable(String stock);
+
+  /// Label when stock is 0.
+  ///
+  /// In en, this message translates to:
+  /// **'Out of Stock'**
+  String get outOfStock;
+
+  /// Alert when item has insufficient stock.
+  ///
+  /// In en, this message translates to:
+  /// **'Not enough stock'**
+  String get insufficientStockAlert;
+
+  /// Validation message when trying to make credit sale without customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer selection is required when there is a remaining balance'**
+  String get customerRequiredForCredit;
+
+  /// Validation error for discount.
+  ///
+  /// In en, this message translates to:
+  /// **'Discount cannot exceed subtotal'**
+  String get discountExceedsSubtotal;
+
+  /// Validation error for paid amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid amount cannot exceed total'**
+  String get invalidPaidAmount;
+
+  /// Default receipt footer.
+  ///
+  /// In en, this message translates to:
+  /// **'Thank you for your business!'**
+  String get receiptThankYou;
 }
 
 class _AppLocalizationsDelegate

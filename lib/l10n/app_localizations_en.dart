@@ -256,4 +256,149 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get productArchived => 'Product archived';
+
+  @override
+  String get walkInCustomer => 'Walk-in Customer';
+
+  @override
+  String get selectCustomer => 'Select Customer';
+
+  @override
+  String get cart => 'Cart';
+
+  @override
+  String itemsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count items',
+      one: '1 item',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get subtotal => 'Subtotal';
+
+  @override
+  String get discount => 'Discount';
+
+  @override
+  String get total => 'Total';
+
+  @override
+  String get paid => 'Paid';
+
+  @override
+  String get due => 'Due';
+
+  @override
+  String get paymentType => 'Payment Type';
+
+  @override
+  String get fullCash => 'Full Cash';
+
+  @override
+  String get fullCredit => 'Full Credit (Udhaar)';
+
+  @override
+  String get partialPayment => 'Partial Payment';
+
+  @override
+  String get completeSale => 'Complete Sale';
+
+  @override
+  String get cartEmpty => 'Cart is empty';
+
+  @override
+  String get cartEmptySubtitle =>
+      'Select products from the catalog to start a sale';
+
+  @override
+  String get addToCart => 'Add to Cart';
+
+  @override
+  String get goToCart => 'View Cart';
+
+  @override
+  String get products => 'Products';
+
+  @override
+  String get invoiceNo => 'Invoice #';
+
+  @override
+  String get saleDate => 'Date';
+
+  @override
+  String get saleStatus => 'Status';
+
+  @override
+  String get statusCompleted => 'Completed';
+
+  @override
+  String get statusCancelled => 'Cancelled';
+
+  @override
+  String get cancelledOn => 'Cancelled on';
+
+  @override
+  String get cancelReasonLabel => 'Cancellation Reason';
+
+  @override
+  String get cancelSale => 'Cancel Sale';
+
+  @override
+  String get cancelSaleConfirmTitle => 'Cancel This Sale?';
+
+  @override
+  String get cancelSaleConfirmMsg =>
+      'This will return all items to stock and reverse any ledger credit or payments. Enter a reason below:';
+
+  @override
+  String get printReceipt => 'Print Receipt';
+
+  @override
+  String get shareReceipt => 'Share Receipt';
+
+  @override
+  String get saleDetails => 'Sale Details';
+
+  @override
+  String get itemsPurchased => 'Purchased Items';
+
+  @override
+  String get filterAll => 'All';
+
+  @override
+  String get filterCompleted => 'Completed';
+
+  @override
+  String get filterCancelled => 'Cancelled';
+
+  @override
+  String get quickAddCustomer => 'Quick Add Customer';
+
+  @override
+  String stockAvailable(String stock) {
+    return 'Stock: $stock';
+  }
+
+  @override
+  String get outOfStock => 'Out of Stock';
+
+  @override
+  String get insufficientStockAlert => 'Not enough stock';
+
+  @override
+  String get customerRequiredForCredit =>
+      'Customer selection is required when there is a remaining balance';
+
+  @override
+  String get discountExceedsSubtotal => 'Discount cannot exceed subtotal';
+
+  @override
+  String get invalidPaidAmount => 'Paid amount cannot exceed total';
+
+  @override
+  String get receiptThankYou => 'Thank you for your business!';
 }

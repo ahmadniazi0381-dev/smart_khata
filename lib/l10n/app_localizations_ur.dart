@@ -256,4 +256,146 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get productArchived => '';
+
+  @override
+  String get walkInCustomer => '';
+
+  @override
+  String get selectCustomer => '';
+
+  @override
+  String get cart => '';
+
+  @override
+  String itemsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count آئٹمز',
+      one: '1 آئٹم',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get subtotal => '';
+
+  @override
+  String get discount => '';
+
+  @override
+  String get total => '';
+
+  @override
+  String get paid => '';
+
+  @override
+  String get due => '';
+
+  @override
+  String get paymentType => '';
+
+  @override
+  String get fullCash => '';
+
+  @override
+  String get fullCredit => '';
+
+  @override
+  String get partialPayment => '';
+
+  @override
+  String get completeSale => '';
+
+  @override
+  String get cartEmpty => '';
+
+  @override
+  String get cartEmptySubtitle => '';
+
+  @override
+  String get addToCart => '';
+
+  @override
+  String get goToCart => '';
+
+  @override
+  String get products => '';
+
+  @override
+  String get invoiceNo => '';
+
+  @override
+  String get saleDate => '';
+
+  @override
+  String get saleStatus => '';
+
+  @override
+  String get statusCompleted => '';
+
+  @override
+  String get statusCancelled => '';
+
+  @override
+  String get cancelledOn => '';
+
+  @override
+  String get cancelReasonLabel => '';
+
+  @override
+  String get cancelSale => '';
+
+  @override
+  String get cancelSaleConfirmTitle => '';
+
+  @override
+  String get cancelSaleConfirmMsg => '';
+
+  @override
+  String get printReceipt => '';
+
+  @override
+  String get shareReceipt => '';
+
+  @override
+  String get saleDetails => '';
+
+  @override
+  String get itemsPurchased => '';
+
+  @override
+  String get filterAll => '';
+
+  @override
+  String get filterCompleted => '';
+
+  @override
+  String get filterCancelled => '';
+
+  @override
+  String get quickAddCustomer => '';
+
+  @override
+  String stockAvailable(String stock) {
+    return '$stock اسٹاک';
+  }
+
+  @override
+  String get outOfStock => '';
+
+  @override
+  String get insufficientStockAlert => '';
+
+  @override
+  String get customerRequiredForCredit => '';
+
+  @override
+  String get discountExceedsSubtotal => '';
+
+  @override
+  String get invalidPaidAmount => '';
+
+  @override
+  String get receiptThankYou => '';
 }
