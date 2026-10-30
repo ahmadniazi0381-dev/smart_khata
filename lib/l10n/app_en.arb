@@ -390,5 +390,142 @@
   "@invalidPaidAmount": { "description": "Validation error for paid amount." },
 
   "receiptThankYou": "Thank you for your business!",
-  "@receiptThankYou": { "description": "Default receipt footer." }
+  "@receiptThankYou": { "description": "Default receipt footer." },
+
+  "quickActions": "Quick Actions",
+  "@quickActions": { "description": "Section header for quick actions on dashboard." },
+
+  "recentSales": "Recent Sales",
+  "@recentSales": { "description": "Dashboard section for recent sales." },
+
+  "viewAll": "View All",
+  "@viewAll": { "description": "Button to view all records in a list." },
+
+  "salesWeeklyTrend": "Sales (Last 7 Days)",
+  "@salesWeeklyTrend": { "description": "Title for weekly sales chart." },
+
+  "noRecentSales": "No sales recorded yet",
+  "@noRecentSales": { "description": "Empty state for recent sales." },
+
+  "expenses": "Expenses",
+  "@expenses": { "description": "Expenses title and nav item." },
+
+  "addExpense": "Add Expense",
+  "@addExpense": { "description": "Button to record an expense." },
+
+  "editExpense": "Edit Expense",
+  "@editExpense": { "description": "Dialog title to edit an expense." },
+
+  "expenseTitle": "Expense Title",
+  "@expenseTitle": { "description": "Title or reason for expense." },
+
+  "expenseCategory": "Category",
+  "@expenseCategory": { "description": "Category of the expense." },
+
+  "expenseAmount": "Amount",
+  "@expenseAmount": { "description": "Amount of expense." },
+
+  "expenseDate": "Date",
+  "@expenseDate": { "description": "Date of expense." },
+
+  "expenseSaved": "Expense saved successfully",
+  "@expenseSaved": { "description": "Snackbar after saving expense." },
+
+  "expenseDeleted": "Expense deleted",
+  "@expenseDeleted": { "description": "Snackbar after deleting expense." },
+
+  "totalExpenses": "Total Expenses",
+  "@totalExpenses": { "description": "Total amount spent on expenses." },
+
+  "categoryRent": "Rent",
+  "@categoryRent": { "description": "Expense category for rent." },
+
+  "categoryElectricity": "Electricity / Utilities",
+  "@categoryElectricity": { "description": "Expense category for bills." },
+
+  "categorySalaries": "Staff Salaries",
+  "@categorySalaries": { "description": "Expense category for salaries." },
+
+  "categoryTransport": "Transport / Delivery",
+  "@categoryTransport": { "description": "Expense category for transport." },
+
+  "categoryMaintenance": "Maintenance",
+  "@categoryMaintenance": { "description": "Expense category for repair." },
+
+  "categoryFoodTea": "Food & Tea",
+  "@categoryFoodTea": { "description": "Expense category for tea and food." },
+
+  "categoryOther": "Other",
+  "@categoryOther": { "description": "Expense category for other expenses." },
+
+  "reportsTitle": "Business Reports",
+  "@reportsTitle": { "description": "Reports screen title." },
+
+  "periodToday": "Today",
+  "@periodToday": { "description": "Filter period today." },
+
+  "periodThisWeek": "This Week",
+  "@periodThisWeek": { "description": "Filter period this week." },
+
+  "periodThisMonth": "This Month",
+  "@periodThisMonth": { "description": "Filter period this month." },
+
+  "periodAllTime": "All Time",
+  "@periodAllTime": { "description": "Filter period all time." },
+
+  "salesSummary": "Sales Summary",
+  "@salesSummary": { "description": "Sales summary section title." },
+
+  "grossProfit": "Estimated Gross Profit",
+  "@grossProfit": { "description": "Estimated gross profit label." },
+
+  "netProfit": "Estimated Net Profit",
+  "@netProfit": { "description": "Estimated net profit label." },
+
+  "completedSales": "Completed Sales",
+  "@completedSales": { "description": "Count of completed sales." },
+
+  "totalRevenue": "Total Revenue",
+  "@totalRevenue": { "description": "Total sales revenue." },
+
+  "costOfGoods": "Cost of Goods Sold",
+  "@costOfGoods": { "description": "Cost of goods sold." },
+
+  "topSellingProducts": "Top Selling Products",
+  "@topSellingProducts": { "description": "Section header for top products." },
+
+  "noReportData": "No data available for selected period",
+  "@noReportData": { "description": "Empty state for reports." },
+
+  "backupAndRestore": "Backup & Restore",
+  "@backupAndRestore": { "description": "Backup & restore title." },
+
+  "backupTitle": "Database Backup",
+  "@backupTitle": { "description": "Card title for backup." },
+
+  "backupSubtitle": "Export an offline copy of all your shop data",
+  "@backupSubtitle": { "description": "Subtitle describing backup." },
+
+  "createBackup": "Create Backup",
+  "@createBackup": { "description": "Action to export backup file." },
+
+  "backupCreated": "Backup created successfully",
+  "@backupCreated": { "description": "Snackbar when backup created." },
+
+  "restoreTitle": "Restore Database",
+  "@restoreTitle": { "description": "Card title for restore." },
+
+  "restoreSubtitle": "Restore data from a previously saved backup file",
+  "@restoreSubtitle": { "description": "Subtitle describing restore." },
+
+  "restoreWarning": "Restoring will overwrite all current data with the selected backup. Make sure you have a recent backup first.",
+  "@restoreWarning": { "description": "Warning message before restore." },
+
+  "restoreSuccess": "Database restored successfully. Please restart the app.",
+  "@restoreSuccess": { "description": "Success message after restore." },
+
+  "restoreFailed": "Failed to restore backup: invalid file",
+  "@restoreFailed": { "description": "Error message when restore fails." },
+
+  "btnRestore": "Restore"
 }

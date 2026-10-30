@@ -1,27 +1,17 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import '../../features/backup/presentation/screens/backup_screen.dart';
 import '../../features/customers/presentation/screens/customer_detail_screen.dart';
 import '../../features/customers/presentation/screens/customers_screen.dart';
+import '../../features/dashboard/presentation/screens/dashboard_screen.dart';
+import '../../features/expenses/presentation/screens/expenses_screen.dart';
 import '../../features/inventory/presentation/screens/product_detail_screen.dart';
 import '../../features/inventory/presentation/screens/stock_screen.dart';
+import '../../features/reports/presentation/screens/reports_screen.dart';
 import '../../features/sales/presentation/screens/new_sale_screen.dart';
 import '../../features/sales/presentation/screens/sale_detail_screen.dart';
 import '../../features/sales/presentation/screens/sales_screen.dart';
 import '../../features/setup/presentation/screens/shop_setup_screen.dart';
-import '../../l10n/app_localizations.dart';
 import 'shell_scaffold.dart';
-
-// ---------------------------------------------------------------------------
-// Placeholder page factory
-// ---------------------------------------------------------------------------
-Widget _placeholder(String label) => Scaffold(
-      body: Center(
-        child: Text(
-          'Coming soon — $label',
-          style: const TextStyle(fontSize: 16),
-        ),
-      ),
-    );
 
 // ---------------------------------------------------------------------------
 // Route name constants
@@ -37,6 +27,8 @@ abstract final class AppRoutes {
   static const saleDetail = '/sales/:id';
   static const reports = '/reports';
   static const setup = '/setup';
+  static const expenses = '/expenses';
+  static const backup = '/backup';
 }
 
 // ---------------------------------------------------------------------------
@@ -54,13 +46,7 @@ final GoRouter appRouter = GoRouter(
       routes: [
         GoRoute(
           path: AppRoutes.home,
-          builder: (context, state) {
-            final l10n = AppLocalizations.of(context);
-            return Scaffold(
-              appBar: AppBar(title: Text(l10n.dashboard)),
-              body: _placeholder(l10n.dashboard),
-            );
-          },
+          builder: (context, state) => const DashboardScreen(),
         ),
         GoRoute(
           path: AppRoutes.customers,
@@ -76,13 +62,7 @@ final GoRouter appRouter = GoRouter(
         ),
         GoRoute(
           path: AppRoutes.reports,
-          builder: (context, state) {
-            final l10n = AppLocalizations.of(context);
-            return Scaffold(
-              appBar: AppBar(title: Text(l10n.navReports)),
-              body: _placeholder(l10n.navReports),
-            );
-          },
+          builder: (context, state) => const ReportsScreen(),
         ),
       ],
     ),
@@ -116,6 +96,14 @@ final GoRouter appRouter = GoRouter(
         final id = state.pathParameters['id'] ?? '';
         return SaleDetailScreen(saleId: id);
       },
+    ),
+    GoRoute(
+      path: AppRoutes.expenses,
+      builder: (context, state) => const ExpensesScreen(),
+    ),
+    GoRoute(
+      path: AppRoutes.backup,
+      builder: (context, state) => const BackupScreen(),
     ),
   ],
 );

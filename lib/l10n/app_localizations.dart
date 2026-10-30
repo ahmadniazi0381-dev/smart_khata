@@ -859,6 +859,282 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Thank you for your business!'**
   String get receiptThankYou;
+
+  /// Section header for quick actions on dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Quick Actions'**
+  String get quickActions;
+
+  /// Dashboard section for recent sales.
+  ///
+  /// In en, this message translates to:
+  /// **'Recent Sales'**
+  String get recentSales;
+
+  /// Button to view all records in a list.
+  ///
+  /// In en, this message translates to:
+  /// **'View All'**
+  String get viewAll;
+
+  /// Title for weekly sales chart.
+  ///
+  /// In en, this message translates to:
+  /// **'Sales (Last 7 Days)'**
+  String get salesWeeklyTrend;
+
+  /// Empty state for recent sales.
+  ///
+  /// In en, this message translates to:
+  /// **'No sales recorded yet'**
+  String get noRecentSales;
+
+  /// Expenses title and nav item.
+  ///
+  /// In en, this message translates to:
+  /// **'Expenses'**
+  String get expenses;
+
+  /// Button to record an expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Expense'**
+  String get addExpense;
+
+  /// Dialog title to edit an expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Expense'**
+  String get editExpense;
+
+  /// Title or reason for expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense Title'**
+  String get expenseTitle;
+
+  /// Category of the expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get expenseCategory;
+
+  /// Amount of expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get expenseAmount;
+
+  /// Date of expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get expenseDate;
+
+  /// Snackbar after saving expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense saved successfully'**
+  String get expenseSaved;
+
+  /// Snackbar after deleting expense.
+  ///
+  /// In en, this message translates to:
+  /// **'Expense deleted'**
+  String get expenseDeleted;
+
+  /// Total amount spent on expenses.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Expenses'**
+  String get totalExpenses;
+
+  /// Expense category for rent.
+  ///
+  /// In en, this message translates to:
+  /// **'Rent'**
+  String get categoryRent;
+
+  /// Expense category for bills.
+  ///
+  /// In en, this message translates to:
+  /// **'Electricity / Utilities'**
+  String get categoryElectricity;
+
+  /// Expense category for salaries.
+  ///
+  /// In en, this message translates to:
+  /// **'Staff Salaries'**
+  String get categorySalaries;
+
+  /// Expense category for transport.
+  ///
+  /// In en, this message translates to:
+  /// **'Transport / Delivery'**
+  String get categoryTransport;
+
+  /// Expense category for repair.
+  ///
+  /// In en, this message translates to:
+  /// **'Maintenance'**
+  String get categoryMaintenance;
+
+  /// Expense category for tea and food.
+  ///
+  /// In en, this message translates to:
+  /// **'Food & Tea'**
+  String get categoryFoodTea;
+
+  /// Expense category for other expenses.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get categoryOther;
+
+  /// Reports screen title.
+  ///
+  /// In en, this message translates to:
+  /// **'Business Reports'**
+  String get reportsTitle;
+
+  /// Filter period today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get periodToday;
+
+  /// Filter period this week.
+  ///
+  /// In en, this message translates to:
+  /// **'This Week'**
+  String get periodThisWeek;
+
+  /// Filter period this month.
+  ///
+  /// In en, this message translates to:
+  /// **'This Month'**
+  String get periodThisMonth;
+
+  /// Filter period all time.
+  ///
+  /// In en, this message translates to:
+  /// **'All Time'**
+  String get periodAllTime;
+
+  /// Sales summary section title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sales Summary'**
+  String get salesSummary;
+
+  /// Estimated gross profit label.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated Gross Profit'**
+  String get grossProfit;
+
+  /// Estimated net profit label.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated Net Profit'**
+  String get netProfit;
+
+  /// Count of completed sales.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed Sales'**
+  String get completedSales;
+
+  /// Total sales revenue.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Revenue'**
+  String get totalRevenue;
+
+  /// Cost of goods sold.
+  ///
+  /// In en, this message translates to:
+  /// **'Cost of Goods Sold'**
+  String get costOfGoods;
+
+  /// Section header for top products.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Selling Products'**
+  String get topSellingProducts;
+
+  /// Empty state for reports.
+  ///
+  /// In en, this message translates to:
+  /// **'No data available for selected period'**
+  String get noReportData;
+
+  /// Backup & restore title.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup & Restore'**
+  String get backupAndRestore;
+
+  /// Card title for backup.
+  ///
+  /// In en, this message translates to:
+  /// **'Database Backup'**
+  String get backupTitle;
+
+  /// Subtitle describing backup.
+  ///
+  /// In en, this message translates to:
+  /// **'Export an offline copy of all your shop data'**
+  String get backupSubtitle;
+
+  /// Action to export backup file.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Backup'**
+  String get createBackup;
+
+  /// Snackbar when backup created.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup created successfully'**
+  String get backupCreated;
+
+  /// Card title for restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore Database'**
+  String get restoreTitle;
+
+  /// Subtitle describing restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore data from a previously saved backup file'**
+  String get restoreSubtitle;
+
+  /// Warning message before restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restoring will overwrite all current data with the selected backup. Make sure you have a recent backup first.'**
+  String get restoreWarning;
+
+  /// Success message after restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Database restored successfully. Please restart the app.'**
+  String get restoreSuccess;
+
+  /// Error message when restore fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to restore backup: invalid file'**
+  String get restoreFailed;
+
+  /// No description provided for @btnRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore'**
+  String get btnRestore;
 }
 
 class _AppLocalizationsDelegate

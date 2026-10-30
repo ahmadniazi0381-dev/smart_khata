@@ -401,4 +401,145 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get receiptThankYou => 'Thank you for your business!';
+
+  @override
+  String get quickActions => 'Quick Actions';
+
+  @override
+  String get recentSales => 'Recent Sales';
+
+  @override
+  String get viewAll => 'View All';
+
+  @override
+  String get salesWeeklyTrend => 'Sales (Last 7 Days)';
+
+  @override
+  String get noRecentSales => 'No sales recorded yet';
+
+  @override
+  String get expenses => 'Expenses';
+
+  @override
+  String get addExpense => 'Add Expense';
+
+  @override
+  String get editExpense => 'Edit Expense';
+
+  @override
+  String get expenseTitle => 'Expense Title';
+
+  @override
+  String get expenseCategory => 'Category';
+
+  @override
+  String get expenseAmount => 'Amount';
+
+  @override
+  String get expenseDate => 'Date';
+
+  @override
+  String get expenseSaved => 'Expense saved successfully';
+
+  @override
+  String get expenseDeleted => 'Expense deleted';
+
+  @override
+  String get totalExpenses => 'Total Expenses';
+
+  @override
+  String get categoryRent => 'Rent';
+
+  @override
+  String get categoryElectricity => 'Electricity / Utilities';
+
+  @override
+  String get categorySalaries => 'Staff Salaries';
+
+  @override
+  String get categoryTransport => 'Transport / Delivery';
+
+  @override
+  String get categoryMaintenance => 'Maintenance';
+
+  @override
+  String get categoryFoodTea => 'Food & Tea';
+
+  @override
+  String get categoryOther => 'Other';
+
+  @override
+  String get reportsTitle => 'Business Reports';
+
+  @override
+  String get periodToday => 'Today';
+
+  @override
+  String get periodThisWeek => 'This Week';
+
+  @override
+  String get periodThisMonth => 'This Month';
+
+  @override
+  String get periodAllTime => 'All Time';
+
+  @override
+  String get salesSummary => 'Sales Summary';
+
+  @override
+  String get grossProfit => 'Estimated Gross Profit';
+
+  @override
+  String get netProfit => 'Estimated Net Profit';
+
+  @override
+  String get completedSales => 'Completed Sales';
+
+  @override
+  String get totalRevenue => 'Total Revenue';
+
+  @override
+  String get costOfGoods => 'Cost of Goods Sold';
+
+  @override
+  String get topSellingProducts => 'Top Selling Products';
+
+  @override
+  String get noReportData => 'No data available for selected period';
+
+  @override
+  String get backupAndRestore => 'Backup & Restore';
+
+  @override
+  String get backupTitle => 'Database Backup';
+
+  @override
+  String get backupSubtitle => 'Export an offline copy of all your shop data';
+
+  @override
+  String get createBackup => 'Create Backup';
+
+  @override
+  String get backupCreated => 'Backup created successfully';
+
+  @override
+  String get restoreTitle => 'Restore Database';
+
+  @override
+  String get restoreSubtitle =>
+      'Restore data from a previously saved backup file';
+
+  @override
+  String get restoreWarning =>
+      'Restoring will overwrite all current data with the selected backup. Make sure you have a recent backup first.';
+
+  @override
+  String get restoreSuccess =>
+      'Database restored successfully. Please restart the app.';
+
+  @override
+  String get restoreFailed => 'Failed to restore backup: invalid file';
+
+  @override
+  String get btnRestore => 'Restore';
 }

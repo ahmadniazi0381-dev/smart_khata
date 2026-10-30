@@ -398,4 +398,142 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get receiptThankYou => '';
+
+  @override
+  String get quickActions => '';
+
+  @override
+  String get recentSales => '';
+
+  @override
+  String get viewAll => '';
+
+  @override
+  String get salesWeeklyTrend => '';
+
+  @override
+  String get noRecentSales => '';
+
+  @override
+  String get expenses => '';
+
+  @override
+  String get addExpense => '';
+
+  @override
+  String get editExpense => '';
+
+  @override
+  String get expenseTitle => '';
+
+  @override
+  String get expenseCategory => '';
+
+  @override
+  String get expenseAmount => '';
+
+  @override
+  String get expenseDate => '';
+
+  @override
+  String get expenseSaved => '';
+
+  @override
+  String get expenseDeleted => '';
+
+  @override
+  String get totalExpenses => '';
+
+  @override
+  String get categoryRent => '';
+
+  @override
+  String get categoryElectricity => '';
+
+  @override
+  String get categorySalaries => '';
+
+  @override
+  String get categoryTransport => '';
+
+  @override
+  String get categoryMaintenance => '';
+
+  @override
+  String get categoryFoodTea => '';
+
+  @override
+  String get categoryOther => '';
+
+  @override
+  String get reportsTitle => '';
+
+  @override
+  String get periodToday => '';
+
+  @override
+  String get periodThisWeek => '';
+
+  @override
+  String get periodThisMonth => '';
+
+  @override
+  String get periodAllTime => '';
+
+  @override
+  String get salesSummary => '';
+
+  @override
+  String get grossProfit => '';
+
+  @override
+  String get netProfit => '';
+
+  @override
+  String get completedSales => '';
+
+  @override
+  String get totalRevenue => '';
+
+  @override
+  String get costOfGoods => '';
+
+  @override
+  String get topSellingProducts => '';
+
+  @override
+  String get noReportData => '';
+
+  @override
+  String get backupAndRestore => '';
+
+  @override
+  String get backupTitle => '';
+
+  @override
+  String get backupSubtitle => '';
+
+  @override
+  String get createBackup => '';
+
+  @override
+  String get backupCreated => '';
+
+  @override
+  String get restoreTitle => '';
+
+  @override
+  String get restoreSubtitle => '';
+
+  @override
+  String get restoreWarning => '';
+
+  @override
+  String get restoreSuccess => '';
+
+  @override
+  String get restoreFailed => '';
+
+  @override
+  String get btnRestore => '';
 }
