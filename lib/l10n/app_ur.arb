@@ -188,5 +188,8 @@
   "invoiceSection": "بل اور رسید",
   "appearanceSection": "ظاہری شکل",
   "dataSection": "ڈیٹا مینجمنٹ",
-  "version": "ورژن {version}"
+  "version": "ورژن {version}",
+  "loadDemoData": "ڈیمو ڈیٹا لوڈ کریں",
+  "loadDemoDataSubtitle": "دکان میں نمونہ پروڈکٹس، گاہک اور فروخت شامل کریں",
+  "demoDataLoaded": "ڈیمو ڈیٹا کامیابی سے لوڈ ہو گیا"
 }

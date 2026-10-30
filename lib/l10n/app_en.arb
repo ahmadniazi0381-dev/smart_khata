@@ -580,5 +580,14 @@
     "placeholders": {
       "version": { "type": "String" }
     }
-  }
+  },
+
+  "loadDemoData": "Load Demo Data",
+  "@loadDemoData": { "description": "Button to populate sample demo data." },
+
+  "loadDemoDataSubtitle": "Populate shop with sample products, customers and sales",
+  "@loadDemoDataSubtitle": { "description": "Subtitle explaining load demo data." },
+
+  "demoDataLoaded": "Demo data loaded successfully",
+  "@demoDataLoaded": { "description": "Snackbar after loading demo data." }
 }

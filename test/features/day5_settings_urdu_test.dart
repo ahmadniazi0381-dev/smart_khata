@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:smart_khata/core/database/app_database.dart';
 import 'package:smart_khata/core/database/database_provider.dart';
+import 'package:smart_khata/core/database/seed_data_service.dart';
 import 'package:smart_khata/core/utils/date_utils.dart';
 import 'package:smart_khata/features/settings/presentation/screens/settings_screen.dart';
 import 'package:smart_khata/features/setup/data/setup_repository.dart';
@@ -96,6 +97,26 @@ void main() {
       await setupRepo.setThemeMode('dark');
       settings = await setupRepo.getSettings();
       expect(settings!.themeMode, 'dark');
+    });
+
+    test('seedDemoData populates categories, products, customers, and expenses',
+        () async {
+      final seeder = SeedDataService(db);
+      await seeder.seedDemoData();
+
+      final categories = await db.select(db.categories).get();
+      final products = await db.select(db.products).get();
+      final customers = await db.select(db.customers).get();
+      final expenses = await db.select(db.expenses).get();
+      final movements = await db.select(db.stockMovements).get();
+      final ledger = await db.select(db.ledgerEntries).get();
+
+      expect(categories.length, 3);
+      expect(products.length, 6);
+      expect(customers.length, 3);
+      expect(expenses.length, 3);
+      expect(movements.length, 6);
+      expect(ledger.length, 2);
     });
   });
 

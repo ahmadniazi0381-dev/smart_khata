@@ -592,4 +592,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String version(String version) {
     return 'Version $version';
   }
+
+  @override
+  String get loadDemoData => 'Load Demo Data';
+
+  @override
+  String get loadDemoDataSubtitle =>
+      'Populate shop with sample products, customers and sales';
+
+  @override
+  String get demoDataLoaded => 'Demo data loaded successfully';
 }

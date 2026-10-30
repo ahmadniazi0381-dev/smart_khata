@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../../../../core/database/database_provider.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../../core/widgets/app_card.dart';
+import '../../../../core/widgets/confirm_dialog.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../setup/presentation/providers/setup_providers.dart';
 
@@ -271,6 +273,34 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                       color: AppColors.primary),
                   trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                   onTap: () => context.push('/backup'),
+                ),
+                const SizedBox(height: kSpaceS),
+                AppCard(
+                  title: Text(l10n.loadDemoData),
+                  subtitle: Text(l10n.loadDemoDataSubtitle),
+                  leading: const Icon(Icons.dataset_outlined,
+                      color: AppColors.success),
+                  trailing: const Icon(Icons.download_outlined, size: 20),
+                  onTap: () async {
+                    final confirm = await showConfirmDialog(
+                      context,
+                      title: l10n.loadDemoData,
+                      message: l10n.loadDemoDataSubtitle,
+                      confirmText: l10n.btnConfirm,
+                      cancelText: l10n.btnCancel,
+                    );
+                    if (confirm && context.mounted) {
+                      await ref.read(seedDataServiceProvider).seedDemoData();
+                      if (context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(l10n.demoDataLoaded),
+                            backgroundColor: AppColors.success,
+                          ),
+                        );
+                      }
+                    }
+                  },
                 ),
 
                 const SizedBox(height: kSpaceXL),

@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'app_database.dart';
+import 'seed_data_service.dart';
 import '../../features/customers/domain/services/ledger_service.dart';
 import '../../features/inventory/domain/services/inventory_service.dart';
 import '../../features/sales/domain/services/sale_service.dart';
@@ -23,4 +24,9 @@ final inventoryServiceProvider = Provider<InventoryService>((ref) {
 final saleServiceProvider = Provider<SaleService>((ref) {
   final db = ref.watch(databaseProvider);
   return SaleService(db);
+});
+
+final seedDataServiceProvider = Provider<SeedDataService>((ref) {
+  final db = ref.watch(databaseProvider);
+  return SeedDataService(db);
 });

@@ -1231,6 +1231,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Version {version}'**
   String version(String version);
+
+  /// Button to populate sample demo data.
+  ///
+  /// In en, this message translates to:
+  /// **'Load Demo Data'**
+  String get loadDemoData;
+
+  /// Subtitle explaining load demo data.
+  ///
+  /// In en, this message translates to:
+  /// **'Populate shop with sample products, customers and sales'**
+  String get loadDemoDataSubtitle;
+
+  /// Snackbar after loading demo data.
+  ///
+  /// In en, this message translates to:
+  /// **'Demo data loaded successfully'**
+  String get demoDataLoaded;
 }
 
 class _AppLocalizationsDelegate

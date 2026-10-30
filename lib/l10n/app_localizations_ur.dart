@@ -590,4 +590,14 @@ class AppLocalizationsUr extends AppLocalizations {
   String version(String version) {
     return 'ورژن $version';
   }
+
+  @override
+  String get loadDemoData => 'ڈیمو ڈیٹا لوڈ کریں';
+
+  @override
+  String get loadDemoDataSubtitle =>
+      'دکان میں نمونہ پروڈکٹس، گاہک اور فروخت شامل کریں';
+
+  @override
+  String get demoDataLoaded => 'ڈیمو ڈیٹا کامیابی سے لوڈ ہو گیا';
 }
