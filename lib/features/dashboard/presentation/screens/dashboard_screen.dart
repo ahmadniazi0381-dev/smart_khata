@@ -47,6 +47,11 @@ class DashboardScreen extends ConsumerWidget {
             tooltip: l10n.backupAndRestore,
             onPressed: () => context.push('/backup'),
           ),
+          IconButton(
+            icon: const Icon(Icons.settings_outlined),
+            tooltip: l10n.settingsTitle,
+            onPressed: () => context.push('/settings'),
+          ),
         ],
       ),
       body: RefreshIndicator(

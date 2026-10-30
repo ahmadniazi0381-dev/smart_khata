@@ -542,4 +542,54 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get btnRestore => 'Restore';
+
+  @override
+  String get settingsTitle => 'Settings';
+
+  @override
+  String get invoicePrefixLabel => 'Invoice Prefix';
+
+  @override
+  String get receiptFooterLabel => 'Receipt Footer';
+
+  @override
+  String get languageLabel => 'Language';
+
+  @override
+  String get languageEnglish => 'English';
+
+  @override
+  String get languageUrdu => 'اردو (Urdu)';
+
+  @override
+  String get themeModeLabel => 'Theme';
+
+  @override
+  String get themeModeSystem => 'System Default';
+
+  @override
+  String get themeModeLight => 'Light';
+
+  @override
+  String get themeModeDark => 'Dark';
+
+  @override
+  String get settingsSaved => 'Settings saved';
+
+  @override
+  String get shopInfoSection => 'Shop Information';
+
+  @override
+  String get invoiceSection => 'Invoice & Receipt';
+
+  @override
+  String get appearanceSection => 'Appearance';
+
+  @override
+  String get dataSection => 'Data Management';
+
+  @override
+  String version(String version) {
+    return 'Version $version';
+  }
 }

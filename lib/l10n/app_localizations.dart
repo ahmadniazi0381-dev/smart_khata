@@ -1135,6 +1135,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Restore'**
   String get btnRestore;
+
+  /// Settings screen title.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settingsTitle;
+
+  /// Label for invoice prefix field.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice Prefix'**
+  String get invoicePrefixLabel;
+
+  /// Label for receipt footer text.
+  ///
+  /// In en, this message translates to:
+  /// **'Receipt Footer'**
+  String get receiptFooterLabel;
+
+  /// Label for language selection.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get languageLabel;
+
+  /// English language option.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get languageEnglish;
+
+  /// Urdu language option.
+  ///
+  /// In en, this message translates to:
+  /// **'اردو (Urdu)'**
+  String get languageUrdu;
+
+  /// Label for theme mode selection.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get themeModeLabel;
+
+  /// Follow system theme.
+  ///
+  /// In en, this message translates to:
+  /// **'System Default'**
+  String get themeModeSystem;
+
+  /// Light theme option.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get themeModeLight;
+
+  /// Dark theme option.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get themeModeDark;
+
+  /// Snackbar after saving settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings saved'**
+  String get settingsSaved;
+
+  /// Settings section header for shop details.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Information'**
+  String get shopInfoSection;
+
+  /// Settings section header for invoice settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice & Receipt'**
+  String get invoiceSection;
+
+  /// Settings section header for theme and language.
+  ///
+  /// In en, this message translates to:
+  /// **'Appearance'**
+  String get appearanceSection;
+
+  /// Settings section header for backup and restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Data Management'**
+  String get dataSection;
+
+  /// App version display
+  ///
+  /// In en, this message translates to:
+  /// **'Version {version}'**
+  String version(String version);
 }
 
 class _AppLocalizationsDelegate

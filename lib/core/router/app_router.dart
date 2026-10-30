@@ -10,6 +10,7 @@ import '../../features/reports/presentation/screens/reports_screen.dart';
 import '../../features/sales/presentation/screens/new_sale_screen.dart';
 import '../../features/sales/presentation/screens/sale_detail_screen.dart';
 import '../../features/sales/presentation/screens/sales_screen.dart';
+import '../../features/settings/presentation/screens/settings_screen.dart';
 import '../../features/setup/presentation/screens/shop_setup_screen.dart';
 import 'shell_scaffold.dart';
 
@@ -29,6 +30,7 @@ abstract final class AppRoutes {
   static const setup = '/setup';
   static const expenses = '/expenses';
   static const backup = '/backup';
+  static const settings = '/settings';
 }
 
 // ---------------------------------------------------------------------------
@@ -104,6 +106,10 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: AppRoutes.backup,
       builder: (context, state) => const BackupScreen(),
+    ),
+    GoRoute(
+      path: AppRoutes.settings,
+      builder: (context, state) => const SettingsScreen(),
     ),
   ],
 );

@@ -527,5 +527,58 @@
   "restoreFailed": "Failed to restore backup: invalid file",
   "@restoreFailed": { "description": "Error message when restore fails." },
 
-  "btnRestore": "Restore"
+  "btnRestore": "Restore",
+
+  "settingsTitle": "Settings",
+  "@settingsTitle": { "description": "Settings screen title." },
+
+  "invoicePrefixLabel": "Invoice Prefix",
+  "@invoicePrefixLabel": { "description": "Label for invoice prefix field." },
+
+  "receiptFooterLabel": "Receipt Footer",
+  "@receiptFooterLabel": { "description": "Label for receipt footer text." },
+
+  "languageLabel": "Language",
+  "@languageLabel": { "description": "Label for language selection." },
+
+  "languageEnglish": "English",
+  "@languageEnglish": { "description": "English language option." },
+
+  "languageUrdu": "اردو (Urdu)",
+  "@languageUrdu": { "description": "Urdu language option." },
+
+  "themeModeLabel": "Theme",
+  "@themeModeLabel": { "description": "Label for theme mode selection." },
+
+  "themeModeSystem": "System Default",
+  "@themeModeSystem": { "description": "Follow system theme." },
+
+  "themeModeLight": "Light",
+  "@themeModeLight": { "description": "Light theme option." },
+
+  "themeModeDark": "Dark",
+  "@themeModeDark": { "description": "Dark theme option." },
+
+  "settingsSaved": "Settings saved",
+  "@settingsSaved": { "description": "Snackbar after saving settings." },
+
+  "shopInfoSection": "Shop Information",
+  "@shopInfoSection": { "description": "Settings section header for shop details." },
+
+  "invoiceSection": "Invoice & Receipt",
+  "@invoiceSection": { "description": "Settings section header for invoice settings." },
+
+  "appearanceSection": "Appearance",
+  "@appearanceSection": { "description": "Settings section header for theme and language." },
+
+  "dataSection": "Data Management",
+  "@dataSection": { "description": "Settings section header for backup and restore." },
+
+  "version": "Version {version}",
+  "@version": {
+    "description": "App version display",
+    "placeholders": {
+      "version": { "type": "String" }
+    }
+  }
 }

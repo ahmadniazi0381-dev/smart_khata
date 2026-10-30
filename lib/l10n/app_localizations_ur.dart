@@ -9,262 +9,262 @@ class AppLocalizationsUr extends AppLocalizations {
   AppLocalizationsUr([String locale = 'ur']) : super(locale);
 
   @override
-  String get appTitle => '';
+  String get appTitle => 'سمارٹ کھاتا';
 
   @override
-  String get navHome => '';
+  String get navHome => 'ہوم';
 
   @override
-  String get navCustomers => '';
+  String get navCustomers => 'گاہک';
 
   @override
-  String get navStock => '';
+  String get navStock => 'اسٹاک';
 
   @override
-  String get navSales => '';
+  String get navSales => 'فروخت';
 
   @override
-  String get navReports => '';
+  String get navReports => 'رپورٹس';
 
   @override
-  String get newSale => '';
+  String get newSale => 'نئی فروخت';
 
   @override
-  String get btnSave => '';
+  String get btnSave => 'محفوظ کریں';
 
   @override
-  String get btnCancel => '';
+  String get btnCancel => 'منسوخ';
 
   @override
-  String get btnDelete => '';
+  String get btnDelete => 'حذف کریں';
 
   @override
-  String get btnEdit => '';
+  String get btnEdit => 'ترمیم';
 
   @override
-  String get btnClose => '';
+  String get btnClose => 'بند کریں';
 
   @override
-  String get btnConfirm => '';
+  String get btnConfirm => 'تصدیق';
 
   @override
-  String get btnAdd => '';
+  String get btnAdd => 'شامل کریں';
 
   @override
-  String get btnSearch => '';
+  String get btnSearch => 'تلاش';
 
   @override
-  String get searchHint => '';
+  String get searchHint => 'تلاش کریں...';
 
   @override
-  String get emptyState => '';
+  String get emptyState => 'کوئی آئٹم نہیں ملا';
 
   @override
-  String get loading => '';
+  String get loading => 'لوڈ ہو رہا ہے...';
 
   @override
-  String get errorGeneral => '';
+  String get errorGeneral => 'کچھ غلط ہو گیا';
 
   @override
-  String get errorRequired => '';
+  String get errorRequired => 'یہ فیلڈ ضروری ہے';
 
   @override
-  String get errorInvalidNumber => '';
+  String get errorInvalidNumber => 'غلط نمبر';
 
   @override
-  String get saleCreated => '';
+  String get saleCreated => 'فروخت کامیابی سے ریکارڈ ہو گئی';
 
   @override
-  String get saleCancelled => '';
+  String get saleCancelled => 'فروخت منسوخ ہو گئی';
 
   @override
-  String get paymentReceived => '';
+  String get paymentReceived => 'ادائیگی موصول ہو گئی';
 
   @override
-  String get stockAdjusted => '';
+  String get stockAdjusted => 'اسٹاک ایڈجسٹ ہو گیا';
 
   @override
-  String get customerSaved => '';
+  String get customerSaved => 'گاہک محفوظ ہو گیا';
 
   @override
-  String get productSaved => '';
+  String get productSaved => 'پروڈکٹ محفوظ ہو گئی';
 
   @override
-  String get confirmDelete => '';
+  String get confirmDelete => 'کیا آپ واقعی اسے حذف کرنا چاہتے ہیں؟';
 
   @override
-  String get confirmCancel => '';
+  String get confirmCancel => 'کیا آپ واقعی منسوخ کرنا چاہتے ہیں؟';
 
   @override
-  String get yes => '';
+  String get yes => 'ہاں';
 
   @override
-  String get no => '';
+  String get no => 'نہیں';
 
   @override
-  String get dashboard => '';
+  String get dashboard => 'ڈیش بورڈ';
 
   @override
-  String get todaySales => '';
+  String get todaySales => 'آج کی فروخت';
 
   @override
-  String get outstanding => '';
+  String get outstanding => 'باقی رقم';
 
   @override
-  String get lowStock => '';
+  String get lowStock => 'کم اسٹاک';
 
   @override
-  String get inventoryValue => '';
+  String get inventoryValue => 'اسٹاک کی قیمت';
 
   @override
-  String get shopSetupTitle => '';
+  String get shopSetupTitle => 'دکان کی سیٹنگ';
 
   @override
-  String get shopNameLabel => '';
+  String get shopNameLabel => 'دکان کا نام';
 
   @override
-  String get phoneLabel => '';
+  String get phoneLabel => 'فون نمبر';
 
   @override
-  String get addressLabel => '';
+  String get addressLabel => 'پتہ';
 
   @override
-  String get setupComplete => '';
+  String get setupComplete => 'شروع کریں';
 
   @override
-  String get addCustomer => '';
+  String get addCustomer => 'نیا گاہک';
 
   @override
-  String get editCustomer => '';
+  String get editCustomer => 'گاہک ترمیم';
 
   @override
-  String get customerName => '';
+  String get customerName => 'گاہک کا نام';
 
   @override
-  String get customerPhone => '';
+  String get customerPhone => 'گاہک کا فون';
 
   @override
-  String get customerAddress => '';
+  String get customerAddress => 'گاہک کا پتہ';
 
   @override
-  String get openingBalance => '';
+  String get openingBalance => 'ابتدائی بقایا';
 
   @override
-  String get archiveCustomer => '';
+  String get archiveCustomer => 'گاہک آرکائیو کریں';
 
   @override
-  String get customerArchived => '';
+  String get customerArchived => 'گاہک آرکائیو ہو گیا';
 
   @override
-  String get balance => '';
+  String get balance => 'بقایا';
 
   @override
-  String get ledger => '';
+  String get ledger => 'کھاتا';
 
   @override
-  String get receivePayment => '';
+  String get receivePayment => 'ادائیگی وصول کریں';
 
   @override
-  String get adjustBalance => '';
+  String get adjustBalance => 'بقایا ایڈجسٹ کریں';
 
   @override
-  String get paymentAmount => '';
+  String get paymentAmount => 'ادائیگی کی رقم';
 
   @override
-  String get paymentMethod => '';
+  String get paymentMethod => 'ادائیگی کا طریقہ';
 
   @override
-  String get methodCash => '';
+  String get methodCash => 'نقد';
 
   @override
-  String get methodBank => '';
+  String get methodBank => 'بینک';
 
   @override
-  String get methodWallet => '';
+  String get methodWallet => 'والیٹ (ایزی پیسہ/جیز کیش)';
 
   @override
-  String get adjustmentAmount => '';
+  String get adjustmentAmount => 'ایڈجسٹمنٹ (+ / -)';
 
   @override
-  String get adjustmentReason => '';
+  String get adjustmentReason => 'وجہ (ضروری ہے)';
 
   @override
-  String get addProduct => '';
+  String get addProduct => 'نئی پروڈکٹ';
 
   @override
-  String get editProduct => '';
+  String get editProduct => 'پروڈکٹ ترمیم';
 
   @override
-  String get productName => '';
+  String get productName => 'پروڈکٹ کا نام';
 
   @override
-  String get category => '';
+  String get category => 'زمرہ';
 
   @override
-  String get allCategories => '';
+  String get allCategories => 'تمام زمرے';
 
   @override
-  String get noCategory => '';
+  String get noCategory => 'بغیر زمرہ';
 
   @override
-  String get categoriesTitle => '';
+  String get categoriesTitle => 'زمرے';
 
   @override
-  String get addCategory => '';
+  String get addCategory => 'نیا زمرہ';
 
   @override
-  String get categoryName => '';
+  String get categoryName => 'زمرے کا نام';
 
   @override
-  String get categorySaved => '';
+  String get categorySaved => 'زمرہ محفوظ ہو گیا';
 
   @override
-  String get sku => '';
+  String get sku => 'SKU / بارکوڈ';
 
   @override
-  String get unit => '';
+  String get unit => 'اکائی';
 
   @override
-  String get purchasePrice => '';
+  String get purchasePrice => 'خریداری قیمت (لاگت)';
 
   @override
-  String get sellingPrice => '';
+  String get sellingPrice => 'فروخت قیمت';
 
   @override
-  String get initialStock => '';
+  String get initialStock => 'ابتدائی اسٹاک';
 
   @override
-  String get lowStockThreshold => '';
+  String get lowStockThreshold => 'کم اسٹاک الرٹ لیول';
 
   @override
-  String get currentStock => '';
+  String get currentStock => 'موجودہ اسٹاک';
 
   @override
-  String get stockHistory => '';
+  String get stockHistory => 'اسٹاک کی تاریخ';
 
   @override
-  String get adjustStock => '';
+  String get adjustStock => 'اسٹاک ایڈجسٹ کریں';
 
   @override
-  String get stockDelta => '';
+  String get stockDelta => 'مقدار تبدیلی (+ / -)';
 
   @override
-  String get note => '';
+  String get note => 'نوٹ';
 
   @override
-  String get archiveProduct => '';
+  String get archiveProduct => 'پروڈکٹ آرکائیو کریں';
 
   @override
-  String get productArchived => '';
+  String get productArchived => 'پروڈکٹ آرکائیو ہو گئی';
 
   @override
-  String get walkInCustomer => '';
+  String get walkInCustomer => 'واک اِن گاہک';
 
   @override
-  String get selectCustomer => '';
+  String get selectCustomer => 'گاہک منتخب کریں';
 
   @override
-  String get cart => '';
+  String get cart => 'کارٹ';
 
   @override
   String itemsCount(int count) {
@@ -278,262 +278,316 @@ class AppLocalizationsUr extends AppLocalizations {
   }
 
   @override
-  String get subtotal => '';
+  String get subtotal => 'ذیلی کل';
 
   @override
-  String get discount => '';
+  String get discount => 'رعایت';
 
   @override
-  String get total => '';
+  String get total => 'کل رقم';
 
   @override
-  String get paid => '';
+  String get paid => 'ادا شدہ';
 
   @override
-  String get due => '';
+  String get due => 'باقی';
 
   @override
-  String get paymentType => '';
+  String get paymentType => 'ادائیگی کی قسم';
 
   @override
-  String get fullCash => '';
+  String get fullCash => 'مکمل نقد';
 
   @override
-  String get fullCredit => '';
+  String get fullCredit => 'مکمل اُدھار';
 
   @override
-  String get partialPayment => '';
+  String get partialPayment => 'جزوی ادائیگی';
 
   @override
-  String get completeSale => '';
+  String get completeSale => 'فروخت مکمل کریں';
 
   @override
-  String get cartEmpty => '';
+  String get cartEmpty => 'کارٹ خالی ہے';
 
   @override
-  String get cartEmptySubtitle => '';
+  String get cartEmptySubtitle => 'فروخت شروع کرنے کے لیے پروڈکٹس منتخب کریں';
 
   @override
-  String get addToCart => '';
+  String get addToCart => 'کارٹ میں شامل کریں';
 
   @override
-  String get goToCart => '';
+  String get goToCart => 'کارٹ دیکھیں';
 
   @override
-  String get products => '';
+  String get products => 'پروڈکٹس';
 
   @override
-  String get invoiceNo => '';
+  String get invoiceNo => 'بل نمبر';
 
   @override
-  String get saleDate => '';
+  String get saleDate => 'تاریخ';
 
   @override
-  String get saleStatus => '';
+  String get saleStatus => 'حالت';
 
   @override
-  String get statusCompleted => '';
+  String get statusCompleted => 'مکمل';
 
   @override
-  String get statusCancelled => '';
+  String get statusCancelled => 'منسوخ';
 
   @override
-  String get cancelledOn => '';
+  String get cancelledOn => 'منسوخی کی تاریخ';
 
   @override
-  String get cancelReasonLabel => '';
+  String get cancelReasonLabel => 'منسوخی کی وجہ';
 
   @override
-  String get cancelSale => '';
+  String get cancelSale => 'فروخت منسوخ کریں';
 
   @override
-  String get cancelSaleConfirmTitle => '';
+  String get cancelSaleConfirmTitle => 'یہ فروخت منسوخ کریں؟';
 
   @override
-  String get cancelSaleConfirmMsg => '';
+  String get cancelSaleConfirmMsg =>
+      'تمام اشیاء اسٹاک میں واپس ہو جائیں گی اور کھاتے کا بقایا اور ادائیگیاں الٹ دی جائیں گی۔ وجہ درج کریں:';
 
   @override
-  String get printReceipt => '';
+  String get printReceipt => 'رسید پرنٹ کریں';
 
   @override
-  String get shareReceipt => '';
+  String get shareReceipt => 'رسید شیئر کریں';
 
   @override
-  String get saleDetails => '';
+  String get saleDetails => 'فروخت کی تفصیلات';
 
   @override
-  String get itemsPurchased => '';
+  String get itemsPurchased => 'خریدی گئی اشیاء';
 
   @override
-  String get filterAll => '';
+  String get filterAll => 'سب';
 
   @override
-  String get filterCompleted => '';
+  String get filterCompleted => 'مکمل';
 
   @override
-  String get filterCancelled => '';
+  String get filterCancelled => 'منسوخ';
 
   @override
-  String get quickAddCustomer => '';
+  String get quickAddCustomer => 'فوری گاہک شامل کریں';
 
   @override
   String stockAvailable(String stock) {
-    return '$stock اسٹاک';
+    return 'اسٹاک: $stock';
   }
 
   @override
-  String get outOfStock => '';
+  String get outOfStock => 'اسٹاک ختم';
 
   @override
-  String get insufficientStockAlert => '';
+  String get insufficientStockAlert => 'اسٹاک کافی نہیں ہے';
 
   @override
-  String get customerRequiredForCredit => '';
+  String get customerRequiredForCredit =>
+      'اُدھار فروخت کے لیے گاہک کا انتخاب ضروری ہے';
 
   @override
-  String get discountExceedsSubtotal => '';
+  String get discountExceedsSubtotal => 'رعایت ذیلی کل سے زیادہ نہیں ہو سکتی';
 
   @override
-  String get invalidPaidAmount => '';
+  String get invalidPaidAmount => 'ادا شدہ رقم کل سے زیادہ نہیں ہو سکتی';
 
   @override
-  String get receiptThankYou => '';
+  String get receiptThankYou => 'خریداری کا شکریہ!';
 
   @override
-  String get quickActions => '';
+  String get quickActions => 'فوری کارروائیاں';
 
   @override
-  String get recentSales => '';
+  String get recentSales => 'حالیہ فروخت';
 
   @override
-  String get viewAll => '';
+  String get viewAll => 'سب دیکھیں';
 
   @override
-  String get salesWeeklyTrend => '';
+  String get salesWeeklyTrend => 'فروخت (گزشتہ 7 دن)';
 
   @override
-  String get noRecentSales => '';
+  String get noRecentSales => 'ابھی تک کوئی فروخت ریکارڈ نہیں ہوئی';
 
   @override
-  String get expenses => '';
+  String get expenses => 'اخراجات';
 
   @override
-  String get addExpense => '';
+  String get addExpense => 'نیا خرچ';
 
   @override
-  String get editExpense => '';
+  String get editExpense => 'خرچ ترمیم';
 
   @override
-  String get expenseTitle => '';
+  String get expenseTitle => 'خرچ کا عنوان';
 
   @override
-  String get expenseCategory => '';
+  String get expenseCategory => 'زمرہ';
 
   @override
-  String get expenseAmount => '';
+  String get expenseAmount => 'رقم';
 
   @override
-  String get expenseDate => '';
+  String get expenseDate => 'تاریخ';
 
   @override
-  String get expenseSaved => '';
+  String get expenseSaved => 'خرچ محفوظ ہو گیا';
 
   @override
-  String get expenseDeleted => '';
+  String get expenseDeleted => 'خرچ حذف ہو گیا';
 
   @override
-  String get totalExpenses => '';
+  String get totalExpenses => 'کل اخراجات';
 
   @override
-  String get categoryRent => '';
+  String get categoryRent => 'کرایہ';
 
   @override
-  String get categoryElectricity => '';
+  String get categoryElectricity => 'بجلی / یوٹیلیٹیز';
 
   @override
-  String get categorySalaries => '';
+  String get categorySalaries => 'ملازمین کی تنخواہ';
 
   @override
-  String get categoryTransport => '';
+  String get categoryTransport => 'ٹرانسپورٹ / ڈیلیوری';
 
   @override
-  String get categoryMaintenance => '';
+  String get categoryMaintenance => 'مرمت';
 
   @override
-  String get categoryFoodTea => '';
+  String get categoryFoodTea => 'کھانا اور چائے';
 
   @override
-  String get categoryOther => '';
+  String get categoryOther => 'دیگر';
 
   @override
-  String get reportsTitle => '';
+  String get reportsTitle => 'کاروباری رپورٹس';
 
   @override
-  String get periodToday => '';
+  String get periodToday => 'آج';
 
   @override
-  String get periodThisWeek => '';
+  String get periodThisWeek => 'اس ہفتے';
 
   @override
-  String get periodThisMonth => '';
+  String get periodThisMonth => 'اس مہینے';
 
   @override
-  String get periodAllTime => '';
+  String get periodAllTime => 'تمام وقت';
 
   @override
-  String get salesSummary => '';
+  String get salesSummary => 'فروخت کا خلاصہ';
 
   @override
-  String get grossProfit => '';
+  String get grossProfit => 'تخمینی مجموعی منافع';
 
   @override
-  String get netProfit => '';
+  String get netProfit => 'تخمینی خالص منافع';
 
   @override
-  String get completedSales => '';
+  String get completedSales => 'مکمل فروخت';
 
   @override
-  String get totalRevenue => '';
+  String get totalRevenue => 'کل آمدنی';
 
   @override
-  String get costOfGoods => '';
+  String get costOfGoods => 'اشیاء کی لاگت';
 
   @override
-  String get topSellingProducts => '';
+  String get topSellingProducts => 'سب سے زیادہ فروخت ہونے والی اشیاء';
 
   @override
-  String get noReportData => '';
+  String get noReportData => 'منتخب مدت کے لیے کوئی ڈیٹا دستیاب نہیں';
 
   @override
-  String get backupAndRestore => '';
+  String get backupAndRestore => 'بیک اپ اور بحالی';
 
   @override
-  String get backupTitle => '';
+  String get backupTitle => 'ڈیٹا بیس بیک اپ';
 
   @override
-  String get backupSubtitle => '';
+  String get backupSubtitle => 'اپنی دکان کے تمام ڈیٹا کی آف لائن کاپی بنائیں';
 
   @override
-  String get createBackup => '';
+  String get createBackup => 'بیک اپ بنائیں';
 
   @override
-  String get backupCreated => '';
+  String get backupCreated => 'بیک اپ کامیابی سے بن گیا';
 
   @override
-  String get restoreTitle => '';
+  String get restoreTitle => 'ڈیٹا بیس بحالی';
 
   @override
-  String get restoreSubtitle => '';
+  String get restoreSubtitle => 'پہلے سے محفوظ بیک اپ فائل سے ڈیٹا بحال کریں';
 
   @override
-  String get restoreWarning => '';
+  String get restoreWarning =>
+      'بحالی سے موجودہ تمام ڈیٹا منتخب بیک اپ سے بدل جائے گا۔ پہلے نیا بیک اپ ضرور بنا لیں۔';
 
   @override
-  String get restoreSuccess => '';
+  String get restoreSuccess =>
+      'ڈیٹا بیس کامیابی سے بحال ہو گیا۔ ایپ دوبارہ شروع کریں۔';
 
   @override
-  String get restoreFailed => '';
+  String get restoreFailed => 'بیک اپ بحالی ناکام: غلط فائل';
 
   @override
-  String get btnRestore => '';
+  String get btnRestore => 'بحال کریں';
+
+  @override
+  String get settingsTitle => 'ترتیبات';
+
+  @override
+  String get invoicePrefixLabel => 'بل کا سابقہ';
+
+  @override
+  String get receiptFooterLabel => 'رسید فوٹر';
+
+  @override
+  String get languageLabel => 'زبان';
+
+  @override
+  String get languageEnglish => 'English (انگریزی)';
+
+  @override
+  String get languageUrdu => 'اردو';
+
+  @override
+  String get themeModeLabel => 'تھیم';
+
+  @override
+  String get themeModeSystem => 'سسٹم ڈیفالٹ';
+
+  @override
+  String get themeModeLight => 'لائٹ';
+
+  @override
+  String get themeModeDark => 'ڈارک';
+
+  @override
+  String get settingsSaved => 'ترتیبات محفوظ ہو گئیں';
+
+  @override
+  String get shopInfoSection => 'دکان کی معلومات';
+
+  @override
+  String get invoiceSection => 'بل اور رسید';
+
+  @override
+  String get appearanceSection => 'ظاہری شکل';
+
+  @override
+  String get dataSection => 'ڈیٹا مینجمنٹ';
+
+  @override
+  String version(String version) {
+    return 'ورژن $version';
+  }
 }
