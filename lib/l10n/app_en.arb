@@ -1,0 +1,111 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Smart Khata",
+  "@appTitle": { "description": "Application name shown in app bar and splash." },
+
+  "navHome": "Home",
+  "@navHome": { "description": "Bottom nav label for the Home/Dashboard tab." },
+
+  "navCustomers": "Customers",
+  "@navCustomers": { "description": "Bottom nav label for Customers tab." },
+
+  "navStock": "Stock",
+  "@navStock": { "description": "Bottom nav label for Stock/Inventory tab." },
+
+  "navSales": "Sales",
+  "@navSales": { "description": "Bottom nav label for Sales tab." },
+
+  "navReports": "Reports",
+  "@navReports": { "description": "Bottom nav label for Reports tab." },
+
+  "newSale": "New Sale",
+  "@newSale": { "description": "FAB label / page title for creating a new sale." },
+
+  "btnSave": "Save",
+  "@btnSave": { "description": "Generic save button label." },
+
+  "btnCancel": "Cancel",
+  "@btnCancel": { "description": "Generic cancel button label." },
+
+  "btnDelete": "Delete",
+  "@btnDelete": { "description": "Generic delete button label." },
+
+  "btnEdit": "Edit",
+  "@btnEdit": { "description": "Generic edit button label." },
+
+  "btnClose": "Close",
+  "@btnClose": { "description": "Generic close button label." },
+
+  "btnConfirm": "Confirm",
+  "@btnConfirm": { "description": "Generic confirm button label." },
+
+  "btnAdd": "Add",
+  "@btnAdd": { "description": "Generic add button label." },
+
+  "btnSearch": "Search",
+  "@btnSearch": { "description": "Generic search button label." },
+
+  "searchHint": "Search...",
+  "@searchHint": { "description": "Placeholder text in search fields." },
+
+  "emptyState": "No items found",
+  "@emptyState": { "description": "Generic message shown when a list is empty." },
+
+  "loading": "Loading...",
+  "@loading": { "description": "Generic loading indicator label." },
+
+  "errorGeneral": "Something went wrong",
+  "@errorGeneral": { "description": "Generic error message." },
+
+  "errorRequired": "This field is required",
+  "@errorRequired": { "description": "Validation error for empty required field." },
+
+  "errorInvalidNumber": "Invalid number",
+  "@errorInvalidNumber": { "description": "Validation error for non-numeric input." },
+
+  "saleCreated": "Sale created successfully",
+  "@saleCreated": { "description": "Snackbar message after a sale is created." },
+
+  "saleCancelled": "Sale cancelled",
+  "@saleCancelled": { "description": "Snackbar message after a sale is cancelled." },
+
+  "paymentReceived": "Payment received",
+  "@paymentReceived": { "description": "Snackbar message after a payment is recorded." },
+
+  "stockAdjusted": "Stock adjusted",
+  "@stockAdjusted": { "description": "Snackbar message after stock is adjusted." },
+
+  "customerSaved": "Customer saved",
+  "@customerSaved": { "description": "Snackbar message after a customer record is saved." },
+
+  "productSaved": "Product saved",
+  "@productSaved": { "description": "Snackbar message after a product record is saved." },
+
+  "confirmDelete": "Are you sure you want to delete this?",
+  "@confirmDelete": { "description": "Confirmation dialog message for destructive delete action." },
+
+  "confirmCancel": "Are you sure you want to cancel?",
+  "@confirmCancel": { "description": "Confirmation dialog message for cancel action." },
+
+  "yes": "Yes",
+  "@yes": { "description": "Affirmative dialog option." },
+
+  "no": "No",
+  "@no": { "description": "Negative dialog option." },
+
+  "dashboard": "Dashboard",
+  "@dashboard": { "description": "Dashboard page title." },
+
+  "todaySales": "Today's Sales",
+  "@todaySales": { "description": "Dashboard metric label for today's total sales." },
+
+  "outstanding": "Outstanding",
+  "@outstanding": { "description": "Dashboard metric label for outstanding receivables." },
+
+  "lowStock": "Low Stock",
+  "@lowStock": { "description": "Dashboard metric label for low-stock product count." },
+
+  "inventoryValue": "Inventory Value",
+  "@inventoryValue": { "description": "Dashboard metric label for total inventory value." }
+}

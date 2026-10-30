@@ -1,0 +1,80 @@
+name: smart_khata
+description: Smart Khata — Offline khata ledger for Pakistani shopkeepers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^14.6.1
+
+  # Database
+  drift: ^2.21.0
+  drift_flutter: ^0.2.2
+  sqlite3_flutter_libs: ^0.5.24
+
+  # Storage
+  path_provider: ^2.1.4
+
+  # PDF & printing
+  pdf: ^3.11.1
+  printing: ^5.13.2
+
+  # Charts
+  fl_chart: ^0.69.0
+
+  # Internationalisation
+  intl: ^0.20.3
+
+  # File operations
+  file_picker: ^8.1.2
+  share_plus: ^10.0.3
+
+  # Utilities
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.21.0
+  build_runner: ^2.4.13
+  mocktail: ^1.0.4
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/fonts/
+
+  # Fonts will be active once .ttf files are placed in assets/fonts/
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Inter-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
+  #   - family: NotoNastaliqUrdu
+  #     fonts:
+  #       - asset: assets/fonts/NotoNastaliqUrdu-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/NotoNastaliqUrdu-Bold.ttf
+  #         weight: 700
