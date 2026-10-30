@@ -313,6 +313,288 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Inventory Value'**
   String get inventoryValue;
+
+  /// Title for the initial shop setup screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Setup'**
+  String get shopSetupTitle;
+
+  /// Label for shop name input.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Name'**
+  String get shopNameLabel;
+
+  /// Label for phone number input.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Number'**
+  String get phoneLabel;
+
+  /// Label for address input.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get addressLabel;
+
+  /// Button to complete setup.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Started'**
+  String get setupComplete;
+
+  /// Button/Title to add new customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Customer'**
+  String get addCustomer;
+
+  /// Title to edit customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Customer'**
+  String get editCustomer;
+
+  /// Label for customer name.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Name'**
+  String get customerName;
+
+  /// Label for customer phone.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Phone'**
+  String get customerPhone;
+
+  /// Label for customer address.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Address'**
+  String get customerAddress;
+
+  /// Label for opening balance (customer owes you).
+  ///
+  /// In en, this message translates to:
+  /// **'Opening Balance'**
+  String get openingBalance;
+
+  /// Button to archive customer instead of deleting.
+  ///
+  /// In en, this message translates to:
+  /// **'Archive Customer'**
+  String get archiveCustomer;
+
+  /// Message after customer is archived.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer archived'**
+  String get customerArchived;
+
+  /// Customer balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance'**
+  String get balance;
+
+  /// Customer ledger title.
+  ///
+  /// In en, this message translates to:
+  /// **'Ledger'**
+  String get ledger;
+
+  /// Action to record khata payment from customer.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive Payment'**
+  String get receivePayment;
+
+  /// Action to manually adjust customer balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjust Balance'**
+  String get adjustBalance;
+
+  /// Label for payment amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Amount'**
+  String get paymentAmount;
+
+  /// Payment method selection.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Method'**
+  String get paymentMethod;
+
+  /// Cash payment method.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash'**
+  String get methodCash;
+
+  /// Bank transfer payment method.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank'**
+  String get methodBank;
+
+  /// Mobile wallet payment method.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet (EasyPaisa/JazzCash)'**
+  String get methodWallet;
+
+  /// Amount to adjust balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjustment (+ / -)'**
+  String get adjustmentAmount;
+
+  /// Reason for balance adjustment.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason (Required)'**
+  String get adjustmentReason;
+
+  /// Title/Button to add product.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Product'**
+  String get addProduct;
+
+  /// Title to edit product.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Product'**
+  String get editProduct;
+
+  /// Label for product name.
+  ///
+  /// In en, this message translates to:
+  /// **'Product Name'**
+  String get productName;
+
+  /// Label for category.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get category;
+
+  /// Filter option for all categories.
+  ///
+  /// In en, this message translates to:
+  /// **'All Categories'**
+  String get allCategories;
+
+  /// Label for products with no category.
+  ///
+  /// In en, this message translates to:
+  /// **'Uncategorized'**
+  String get noCategory;
+
+  /// Categories screen title.
+  ///
+  /// In en, this message translates to:
+  /// **'Categories'**
+  String get categoriesTitle;
+
+  /// Action to add category.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Category'**
+  String get addCategory;
+
+  /// Label for category name.
+  ///
+  /// In en, this message translates to:
+  /// **'Category Name'**
+  String get categoryName;
+
+  /// Message after category is saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Category saved'**
+  String get categorySaved;
+
+  /// Label for SKU/barcode.
+  ///
+  /// In en, this message translates to:
+  /// **'SKU / Barcode'**
+  String get sku;
+
+  /// Label for product unit (pcs, kg, ltr, etc).
+  ///
+  /// In en, this message translates to:
+  /// **'Unit'**
+  String get unit;
+
+  /// Label for purchase/cost price.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase Price (Cost)'**
+  String get purchasePrice;
+
+  /// Label for selling price.
+  ///
+  /// In en, this message translates to:
+  /// **'Selling Price'**
+  String get sellingPrice;
+
+  /// Label for initial stock.
+  ///
+  /// In en, this message translates to:
+  /// **'Initial Stock'**
+  String get initialStock;
+
+  /// Label for low stock threshold.
+  ///
+  /// In en, this message translates to:
+  /// **'Low Stock Alert Level'**
+  String get lowStockThreshold;
+
+  /// Label for current stock level.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Stock'**
+  String get currentStock;
+
+  /// Title for stock movements history.
+  ///
+  /// In en, this message translates to:
+  /// **'Stock History'**
+  String get stockHistory;
+
+  /// Action to manually adjust stock.
+  ///
+  /// In en, this message translates to:
+  /// **'Adjust Stock'**
+  String get adjustStock;
+
+  /// Quantity delta for stock adjustment.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity Change (+ / -)'**
+  String get stockDelta;
+
+  /// Optional note.
+  ///
+  /// In en, this message translates to:
+  /// **'Note'**
+  String get note;
+
+  /// Action to archive product.
+  ///
+  /// In en, this message translates to:
+  /// **'Archive Product'**
+  String get archiveProduct;
+
+  /// Message after product archived.
+  ///
+  /// In en, this message translates to:
+  /// **'Product archived'**
+  String get productArchived;
 }
 
 class _AppLocalizationsDelegate

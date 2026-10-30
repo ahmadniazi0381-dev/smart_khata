@@ -107,5 +107,146 @@
   "@lowStock": { "description": "Dashboard metric label for low-stock product count." },
 
   "inventoryValue": "Inventory Value",
-  "@inventoryValue": { "description": "Dashboard metric label for total inventory value." }
+  "@inventoryValue": { "description": "Dashboard metric label for total inventory value." },
+
+  "shopSetupTitle": "Shop Setup",
+  "@shopSetupTitle": { "description": "Title for the initial shop setup screen." },
+
+  "shopNameLabel": "Shop Name",
+  "@shopNameLabel": { "description": "Label for shop name input." },
+
+  "phoneLabel": "Phone Number",
+  "@phoneLabel": { "description": "Label for phone number input." },
+
+  "addressLabel": "Address",
+  "@addressLabel": { "description": "Label for address input." },
+
+  "setupComplete": "Get Started",
+  "@setupComplete": { "description": "Button to complete setup." },
+
+  "addCustomer": "Add Customer",
+  "@addCustomer": { "description": "Button/Title to add new customer." },
+
+  "editCustomer": "Edit Customer",
+  "@editCustomer": { "description": "Title to edit customer." },
+
+  "customerName": "Customer Name",
+  "@customerName": { "description": "Label for customer name." },
+
+  "customerPhone": "Customer Phone",
+  "@customerPhone": { "description": "Label for customer phone." },
+
+  "customerAddress": "Customer Address",
+  "@customerAddress": { "description": "Label for customer address." },
+
+  "openingBalance": "Opening Balance",
+  "@openingBalance": { "description": "Label for opening balance (customer owes you)." },
+
+  "archiveCustomer": "Archive Customer",
+  "@archiveCustomer": { "description": "Button to archive customer instead of deleting." },
+
+  "customerArchived": "Customer archived",
+  "@customerArchived": { "description": "Message after customer is archived." },
+
+  "balance": "Balance",
+  "@balance": { "description": "Customer balance." },
+
+  "ledger": "Ledger",
+  "@ledger": { "description": "Customer ledger title." },
+
+  "receivePayment": "Receive Payment",
+  "@receivePayment": { "description": "Action to record khata payment from customer." },
+
+  "adjustBalance": "Adjust Balance",
+  "@adjustBalance": { "description": "Action to manually adjust customer balance." },
+
+  "paymentAmount": "Payment Amount",
+  "@paymentAmount": { "description": "Label for payment amount." },
+
+  "paymentMethod": "Payment Method",
+  "@paymentMethod": { "description": "Payment method selection." },
+
+  "methodCash": "Cash",
+  "@methodCash": { "description": "Cash payment method." },
+
+  "methodBank": "Bank",
+  "@methodBank": { "description": "Bank transfer payment method." },
+
+  "methodWallet": "Wallet (EasyPaisa/JazzCash)",
+  "@methodWallet": { "description": "Mobile wallet payment method." },
+
+  "adjustmentAmount": "Adjustment (+ / -)",
+  "@adjustmentAmount": { "description": "Amount to adjust balance." },
+
+  "adjustmentReason": "Reason (Required)",
+  "@adjustmentReason": { "description": "Reason for balance adjustment." },
+
+  "addProduct": "Add Product",
+  "@addProduct": { "description": "Title/Button to add product." },
+
+  "editProduct": "Edit Product",
+  "@editProduct": { "description": "Title to edit product." },
+
+  "productName": "Product Name",
+  "@productName": { "description": "Label for product name." },
+
+  "category": "Category",
+  "@category": { "description": "Label for category." },
+
+  "allCategories": "All Categories",
+  "@allCategories": { "description": "Filter option for all categories." },
+
+  "noCategory": "Uncategorized",
+  "@noCategory": { "description": "Label for products with no category." },
+
+  "categoriesTitle": "Categories",
+  "@categoriesTitle": { "description": "Categories screen title." },
+
+  "addCategory": "Add Category",
+  "@addCategory": { "description": "Action to add category." },
+
+  "categoryName": "Category Name",
+  "@categoryName": { "description": "Label for category name." },
+
+  "categorySaved": "Category saved",
+  "@categorySaved": { "description": "Message after category is saved." },
+
+  "sku": "SKU / Barcode",
+  "@sku": { "description": "Label for SKU/barcode." },
+
+  "unit": "Unit",
+  "@unit": { "description": "Label for product unit (pcs, kg, ltr, etc)." },
+
+  "purchasePrice": "Purchase Price (Cost)",
+  "@purchasePrice": { "description": "Label for purchase/cost price." },
+
+  "sellingPrice": "Selling Price",
+  "@sellingPrice": { "description": "Label for selling price." },
+
+  "initialStock": "Initial Stock",
+  "@initialStock": { "description": "Label for initial stock." },
+
+  "lowStockThreshold": "Low Stock Alert Level",
+  "@lowStockThreshold": { "description": "Label for low stock threshold." },
+
+  "currentStock": "Current Stock",
+  "@currentStock": { "description": "Label for current stock level." },
+
+  "stockHistory": "Stock History",
+  "@stockHistory": { "description": "Title for stock movements history." },
+
+  "adjustStock": "Adjust Stock",
+  "@adjustStock": { "description": "Action to manually adjust stock." },
+
+  "stockDelta": "Quantity Change (+ / -)",
+  "@stockDelta": { "description": "Quantity delta for stock adjustment." },
+
+  "note": "Note",
+  "@note": { "description": "Optional note." },
+
+  "archiveProduct": "Archive Product",
+  "@archiveProduct": { "description": "Action to archive product." },
+
+  "productArchived": "Product archived",
+  "@productArchived": { "description": "Message after product archived." }
 }

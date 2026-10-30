@@ -115,4 +115,145 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inventoryValue => 'Inventory Value';
+
+  @override
+  String get shopSetupTitle => 'Shop Setup';
+
+  @override
+  String get shopNameLabel => 'Shop Name';
+
+  @override
+  String get phoneLabel => 'Phone Number';
+
+  @override
+  String get addressLabel => 'Address';
+
+  @override
+  String get setupComplete => 'Get Started';
+
+  @override
+  String get addCustomer => 'Add Customer';
+
+  @override
+  String get editCustomer => 'Edit Customer';
+
+  @override
+  String get customerName => 'Customer Name';
+
+  @override
+  String get customerPhone => 'Customer Phone';
+
+  @override
+  String get customerAddress => 'Customer Address';
+
+  @override
+  String get openingBalance => 'Opening Balance';
+
+  @override
+  String get archiveCustomer => 'Archive Customer';
+
+  @override
+  String get customerArchived => 'Customer archived';
+
+  @override
+  String get balance => 'Balance';
+
+  @override
+  String get ledger => 'Ledger';
+
+  @override
+  String get receivePayment => 'Receive Payment';
+
+  @override
+  String get adjustBalance => 'Adjust Balance';
+
+  @override
+  String get paymentAmount => 'Payment Amount';
+
+  @override
+  String get paymentMethod => 'Payment Method';
+
+  @override
+  String get methodCash => 'Cash';
+
+  @override
+  String get methodBank => 'Bank';
+
+  @override
+  String get methodWallet => 'Wallet (EasyPaisa/JazzCash)';
+
+  @override
+  String get adjustmentAmount => 'Adjustment (+ / -)';
+
+  @override
+  String get adjustmentReason => 'Reason (Required)';
+
+  @override
+  String get addProduct => 'Add Product';
+
+  @override
+  String get editProduct => 'Edit Product';
+
+  @override
+  String get productName => 'Product Name';
+
+  @override
+  String get category => 'Category';
+
+  @override
+  String get allCategories => 'All Categories';
+
+  @override
+  String get noCategory => 'Uncategorized';
+
+  @override
+  String get categoriesTitle => 'Categories';
+
+  @override
+  String get addCategory => 'Add Category';
+
+  @override
+  String get categoryName => 'Category Name';
+
+  @override
+  String get categorySaved => 'Category saved';
+
+  @override
+  String get sku => 'SKU / Barcode';
+
+  @override
+  String get unit => 'Unit';
+
+  @override
+  String get purchasePrice => 'Purchase Price (Cost)';
+
+  @override
+  String get sellingPrice => 'Selling Price';
+
+  @override
+  String get initialStock => 'Initial Stock';
+
+  @override
+  String get lowStockThreshold => 'Low Stock Alert Level';
+
+  @override
+  String get currentStock => 'Current Stock';
+
+  @override
+  String get stockHistory => 'Stock History';
+
+  @override
+  String get adjustStock => 'Adjust Stock';
+
+  @override
+  String get stockDelta => 'Quantity Change (+ / -)';
+
+  @override
+  String get note => 'Note';
+
+  @override
+  String get archiveProduct => 'Archive Product';
+
+  @override
+  String get productArchived => 'Product archived';
 }

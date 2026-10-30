@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:smart_khata/core/router/shell_scaffold.dart';
-import 'package:smart_khata/l10n/app_localizations.dart';
+import '../../features/customers/presentation/screens/customer_detail_screen.dart';
+import '../../features/customers/presentation/screens/customers_screen.dart';
+import '../../features/inventory/presentation/screens/product_detail_screen.dart';
+import '../../features/inventory/presentation/screens/stock_screen.dart';
+import '../../features/setup/presentation/screens/shop_setup_screen.dart';
+import '../../l10n/app_localizations.dart';
+import 'shell_scaffold.dart';
 
 // ---------------------------------------------------------------------------
 // Placeholder page factory
@@ -23,10 +28,11 @@ abstract final class AppRoutes {
   static const customers = '/customers';
   static const customerDetail = '/customers/:id';
   static const stock = '/stock';
+  static const productDetail = '/products/:id';
   static const sales = '/sales';
   static const newSale = '/sales/new';
   static const reports = '/reports';
-  static const productDetail = '/products/:id';
+  static const setup = '/setup';
 }
 
 // ---------------------------------------------------------------------------
@@ -54,23 +60,11 @@ final GoRouter appRouter = GoRouter(
         ),
         GoRoute(
           path: AppRoutes.customers,
-          builder: (context, state) {
-            final l10n = AppLocalizations.of(context);
-            return Scaffold(
-              appBar: AppBar(title: Text(l10n.navCustomers)),
-              body: _placeholder(l10n.navCustomers),
-            );
-          },
+          builder: (context, state) => const CustomersScreen(),
         ),
         GoRoute(
           path: AppRoutes.stock,
-          builder: (context, state) {
-            final l10n = AppLocalizations.of(context);
-            return Scaffold(
-              appBar: AppBar(title: Text(l10n.navStock)),
-              body: _placeholder(l10n.navStock),
-            );
-          },
+          builder: (context, state) => const StockScreen(),
         ),
         GoRoute(
           path: AppRoutes.sales,
@@ -97,6 +91,10 @@ final GoRouter appRouter = GoRouter(
 
     // ── Detail / full-screen routes (outside shell) ────────────────────────
     GoRoute(
+      path: AppRoutes.setup,
+      builder: (context, state) => const ShopSetupScreen(),
+    ),
+    GoRoute(
       path: AppRoutes.newSale,
       builder: (context, state) {
         final l10n = AppLocalizations.of(context);
@@ -110,20 +108,14 @@ final GoRouter appRouter = GoRouter(
       path: AppRoutes.customerDetail,
       builder: (context, state) {
         final id = state.pathParameters['id'] ?? '';
-        return Scaffold(
-          appBar: AppBar(title: const Text('Customer Detail')),
-          body: _placeholder('Customer #$id'),
-        );
+        return CustomerDetailScreen(customerId: id);
       },
     ),
     GoRoute(
       path: AppRoutes.productDetail,
       builder: (context, state) {
         final id = state.pathParameters['id'] ?? '';
-        return Scaffold(
-          appBar: AppBar(title: const Text('Product Detail')),
-          body: _placeholder('Product #$id'),
-        );
+        return ProductDetailScreen(productId: id);
       },
     ),
   ],

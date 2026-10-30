@@ -115,4 +115,145 @@ class AppLocalizationsUr extends AppLocalizations {
 
   @override
   String get inventoryValue => '';
+
+  @override
+  String get shopSetupTitle => '';
+
+  @override
+  String get shopNameLabel => '';
+
+  @override
+  String get phoneLabel => '';
+
+  @override
+  String get addressLabel => '';
+
+  @override
+  String get setupComplete => '';
+
+  @override
+  String get addCustomer => '';
+
+  @override
+  String get editCustomer => '';
+
+  @override
+  String get customerName => '';
+
+  @override
+  String get customerPhone => '';
+
+  @override
+  String get customerAddress => '';
+
+  @override
+  String get openingBalance => '';
+
+  @override
+  String get archiveCustomer => '';
+
+  @override
+  String get customerArchived => '';
+
+  @override
+  String get balance => '';
+
+  @override
+  String get ledger => '';
+
+  @override
+  String get receivePayment => '';
+
+  @override
+  String get adjustBalance => '';
+
+  @override
+  String get paymentAmount => '';
+
+  @override
+  String get paymentMethod => '';
+
+  @override
+  String get methodCash => '';
+
+  @override
+  String get methodBank => '';
+
+  @override
+  String get methodWallet => '';
+
+  @override
+  String get adjustmentAmount => '';
+
+  @override
+  String get adjustmentReason => '';
+
+  @override
+  String get addProduct => '';
+
+  @override
+  String get editProduct => '';
+
+  @override
+  String get productName => '';
+
+  @override
+  String get category => '';
+
+  @override
+  String get allCategories => '';
+
+  @override
+  String get noCategory => '';
+
+  @override
+  String get categoriesTitle => '';
+
+  @override
+  String get addCategory => '';
+
+  @override
+  String get categoryName => '';
+
+  @override
+  String get categorySaved => '';
+
+  @override
+  String get sku => '';
+
+  @override
+  String get unit => '';
+
+  @override
+  String get purchasePrice => '';
+
+  @override
+  String get sellingPrice => '';
+
+  @override
+  String get initialStock => '';
+
+  @override
+  String get lowStockThreshold => '';
+
+  @override
+  String get currentStock => '';
+
+  @override
+  String get stockHistory => '';
+
+  @override
+  String get adjustStock => '';
+
+  @override
+  String get stockDelta => '';
+
+  @override
+  String get note => '';
+
+  @override
+  String get archiveProduct => '';
+
+  @override
+  String get productArchived => '';
 }
